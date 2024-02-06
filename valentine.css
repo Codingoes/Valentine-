@@ -1,0 +1,91 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+/* Form Page start*/
+
+#form1 {
+  margin: 0 auto;
+  height: 500px;
+  width: 500px;
+  border: 2px solid #6400c2;
+}
+#name {
+  margin-top: 200px;
+  margin-left: 150px;
+  text-align: center;
+  border: none;
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 20px #aa4fff;
+  background-color: #ffffff;
+}
+::placeholder {
+  color: #aa4fff;
+  opacity: 1; /* Firefox */
+}
+
+#btn {
+  margin-top: 25px;
+  margin-left: 220px;
+  height: 30px;
+  width: 100px;
+  background-color: #9f39ff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+#btn:hover {
+    
+    height: 31px;
+    width: 101px;
+    
+  }
+
+/* Form Page ends*/
+
+#box {
+  height: 50vw;
+  width: 50vw;
+  background-color: pink;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 15px;
+}
+
+img {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  left: 25%;
+}
+
+#txt {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  text-align: center;
+}
+
+#yes {
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  height: 15%;
+  width: 35%;
+  border: none;
+  border-radius: 10px;
+}
+#no {
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  height: 15%;
+  width: 35%;
+  border: none;
+  border-radius: 10px;
+}

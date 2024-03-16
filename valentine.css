@@ -139,9 +139,9 @@ img {
   position: relative;
   background-color: white;
   text-align: center;
-  line-height: 10vh;
+  line-height: 5vw;
   width: 15vw;
-  height: 10vh;
+  height: 5vw;
   border-radius: 5px;
   box-shadow: 2px 2px 5px;
 }
@@ -155,9 +155,9 @@ img {
   position: relative;
   background-color: white;
   text-align: center;
-  line-height: 10vh;
+  line-height: 5vw;
   width: 15vw;
-  height: 10vh;
+  height: 5vw;
   border-radius: 5px;
   box-shadow: 2px 2px 5px;
 }

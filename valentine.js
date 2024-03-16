@@ -6,6 +6,8 @@ var nbtn=document.querySelector('#no')
 ybtn.addEventListener('click',()=>{
     tex.innerHTML="I Love you too 😍";
      imag.src='flypanda.png';
+    tex.style.color='white';
+    
 })
 
 image_array=['birthday.png','yes.png','sad.png','love.png']

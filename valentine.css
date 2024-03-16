@@ -88,6 +88,12 @@ img {
   border-radius: 5px;
 }
 
+#yes:hover{
+  top: -2px;
+  transition-duration: 2s;
+  cursor: pointer;
+}
+
 #no{
   position: relative;
   top: 0px;

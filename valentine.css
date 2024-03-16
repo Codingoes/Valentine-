@@ -82,10 +82,14 @@ img {
 
 
 #yes{
+  background-color: white;
+  text-align: center;
+  line-height: 10vw;
   width: 25vw;
   height: 10vw;
-  border: none;
   border-radius: 5px;
+  box-shadow: 2px 2px 5px;
+  position: relative;
 }
 
 #yes:hover{
@@ -96,13 +100,16 @@ img {
 
 #no{
   position: relative;
-  top: 0px;
-  left: 0px;
+  background-color: white;
+  text-align: center;
+  line-height: 10vw;
   width: 25vw;
   height: 10vw;
-  border: none;
   border-radius: 5px;
+  box-shadow: 2px 2px 5px;
 }
+
+
 
 @media (min-width:600px) {
 

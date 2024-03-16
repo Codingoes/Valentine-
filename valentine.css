@@ -49,8 +49,8 @@
 /* Form Page ends*/
 
 #box {
-  height: 50vw;
-  width: 50vw;
+  height: 90vw;
+  width: 70vw;
   background-color: pink;
   margin: 0 auto;
   position: relative;
@@ -58,34 +58,83 @@
 }
 
 img {
-  position: absolute;
-  height: 50%;
-  width: 50%;
-  left: 25%;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  margin: 0 12%;
+
+  
 }
 
 #txt {
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 10% 10%;
+  font-size: 5vw;
+}
+#yesno{
+  display: flex;
+  justify-content: space-around;
+
 }
 
-#yes {
-  position: absolute;
-  top: 60%;
-  left: 15%;
-  height: 15%;
-  width: 35%;
+
+
+
+#yes{
+  width: 25vw;
+  height: 10vw;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
 }
-#no {
-  position: absolute;
-  top: 60%;
-  left: 55%;
-  height: 15%;
-  width: 35%;
+
+#no{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 25vw;
+  height: 10vw;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
+}
+
+@media (min-width:600px) {
+
+  
+#box {
+  height: 400px;
+  width: 400px;
+  background-color: rgb(124, 43, 255);
+  margin: 0 auto;
+  border-radius: 15px;
+}
+img {
+  width: 60%;
+  margin: 0 8vw;
+  /* background-color: red; */
+}
+
+#txt {
+  font-size: 4vw;
+  /* background-color: #6400c2; */
+  padding: 10px 10px;
+}
+
+#yes{
+  width: 15vw;
+  height: 5vw;
+  border: none;
+  border-radius: 5px;
+}
+
+#no{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 15vw;
+  height: 5vw;
+  border: none;
+  border-radius: 5px;
+}
+
 }

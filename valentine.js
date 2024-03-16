@@ -4,7 +4,7 @@ var ybtn=document.querySelector('#yes')
 var nbtn=document.querySelector('#no')
 
 ybtn.addEventListener('click',()=>{
-    tex.innerHTML="I Love you too 😍";
+    tex.innerHTML="Love you too 😍";
      imag.src='flypanda.png';
     tex.style.color='white';
     
